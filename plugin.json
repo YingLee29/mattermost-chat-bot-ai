@@ -1,0 +1,21 @@
+{
+  "id": "com.example.chatbotgpt",
+  "name": "Chatbot GPT",
+  "description": "A Mattermost plugin that integrates with OpenAI GPT",
+  "version": "0.1.0",
+  "server": {
+    "executable": "server"
+  },
+  "settings_schema": {
+    "settings": [
+      {
+        "key": "OpenAIKey",
+        "display_name": "OpenAI API Key",
+        "type": "text",
+        "help_text": "Enter your OpenAI API key.",
+        "placeholder": "",
+        "default": ""
+      }
+    ]
+  }
+}
